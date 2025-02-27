@@ -2,8 +2,7 @@
 
 /**
  * main - Prints the size of various types on 
- * 	thecomputeritis compiled and run on
-*
+ * thecomputeritis compiled and run on
  * Return: Always 0 (Success)
  */
 int main(void)
