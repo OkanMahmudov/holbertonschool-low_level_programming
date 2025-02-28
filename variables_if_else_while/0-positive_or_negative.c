@@ -4,7 +4,7 @@
 
 /**
  * main - Generates a random number and prints wheter it is positive,
- * 	negative, or zero.
+ * negative, or zero.
  *
  * Return: Always 0 (Success)
  */
