@@ -9,15 +9,18 @@ int main(void)
 {
 	int i;
 
-	for (i = 0; i < 9; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		putchar(i + '0');  /* Печатаем число i как символ */
-		putchar(',');      /* Печатаем запятую */
-		putchar(' ');      /* Печатаем пробел */
+		putchar(i + '0');  /* Print the digit as a character */
+		
+		if (i < 9)
+		{
+			putchar(',');      /* Print comma */
+			putchar(' ');      /* Print space */
+		}
 	}
-
-	putchar(9 + '0');  /* Печатаем последнее число 9 */
-	putchar('\n');     /* Печатаем новую строку */
+	
+	putchar('\n');     /* Print new line */
 
 	return (0);
 }
