@@ -2,14 +2,14 @@
 
 int main(void)
 {
-    // Loop to print digits from 0 to 9
-    for (int i = 0; i <= 9; i++)
+    // Print digits from 0 to 9
+    for (int i = 0; i < 10; i++)
     {
-        putchar(i + '0'); // Convert integer to character and print it
+        printf("%d", i);
     }
-    
-    // Print a newline after the numbers
-    putchar('\n');
+
+    // Print a newline at the end
+    printf("\n");
 
     return 0;
 }
