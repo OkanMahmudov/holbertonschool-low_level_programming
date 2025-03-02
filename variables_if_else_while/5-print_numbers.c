@@ -2,14 +2,16 @@
 
 int main(void)
 {
-    // Print digits from 0 to 9
-    for (int i = 0; i < 10; i++)
-    {
-        printf("%d", i);
-    }
+	/* main - Print digits from 0 to 9 */
+	int i;
 
-    // Print a newline at the end
-    printf("\n");
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d", i);
+	}
 
-    return 0;
+	/* Print a newline at the end */
+	printf("\n");
+
+	return (0);
 }
