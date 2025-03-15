@@ -11,3 +11,16 @@ int _sqrt(int x, int y);
 int is_prime_number(int n);
 int _prime_number(int x, int y);
 #endif
+
+#include "main.h"
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    _print_rev_recursion("\nColton Walker");
+    return (0);
+}
